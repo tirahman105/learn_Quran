@@ -550,7 +550,8 @@
                         <div class="col">
                             <div class="card nukta_letter">
                                 <div class="card-body ">
-                                    <button class="btn" onclick="alif.play();">
+                                  <audio id="audio_ya" src="audio/ya.mp3" type="audio/mpeg"></audio>
+                                    <button class="btn" onclick="ya();">
                                         <h1 class="card-title text-center">
                                             ي
                                         </h1>
@@ -564,7 +565,8 @@
                         <div class="col">
                             <div class="card nukta_free_letter">
                                 <div class="card-body ">
-                                    <button class="btn" onclick="alif.play();">
+                                  <audio id="audio_ya" src="audio/ya.mp3" type="audio/mpeg"></audio>
+                                    <button class="btn" onclick="ya();">
                                         <h1 class="card-title text-center">
                                             ئ
                                         </h1>
@@ -578,7 +580,8 @@
                         <div class="col">
                             <div class="card nukta_free_letter">
                                 <div class="card-body ">
-                                    <button class="btn" onclick="alif.play();">
+                                  <audio id="audio_hamza" src="audio/hamza.mp3" type="audio/mpeg"></audio>
+                                    <button class="btn" onclick="hamza();">
                                         <h1 class="card-title text-center">
                                             ء
                                         </h1>
@@ -592,7 +595,8 @@
                         <div class="col">
                             <div class="card nukta_free_letter">
                                 <div class="card-body ">
-                                    <button class="btn" onclick="ba.play();">
+                                  <audio id="audio_ha2" src="audio/ha2.mp3" type="audio/mpeg"></audio>
+                                    <button class="btn" onclick="ha2();">
                                         <h1 class="card-title text-center">
                                             ه
                                         </h1>
@@ -606,7 +610,8 @@
                         <div class="col">
                             <div class="card nukta_free_letter">
                                 <div class="card-body ">
-                                    <button class="btn" onclick="alif.play();">
+                                  <audio id="audio_waw" src="audio/waw.mp3" type="audio/mpeg"></audio>
+                                    <button class="btn" onclick="waw();">
                                         <h1 class="card-title text-center">
                                             و
                                         </h1>
@@ -799,6 +804,28 @@
           function nun(){
             audio25.play();
           }
+          var audio26 = document.getElementById("audio_waw");
+          function waw(){
+            audio26.play();
+          }
+
+          var audio27 = document.getElementById("audio_ha2");
+          function ha2(){
+            audio27.play();
+          }
+
+          var audio28 = document.getElementById("audio_hamza");
+          function hamza(){
+            audio28.play();
+          }
+
+          var audio29 = document.getElementById("audio_ya");
+          function ya(){
+            audio29.play();
+          }
+
+
+          
 
 
 
