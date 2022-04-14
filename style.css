@@ -1,0 +1,16 @@
+/*chapter 1 card*/
+
+.nukta_letter{
+    background-color: #FFC107;
+}
+.nukta_letter:hover {
+    background-color: #E8B716FF;
+}
+
+.nukta_free_letter{
+	background-color: #0DCAF0;
+}
+
+.nukta_free_letter:hover{
+	background-color: #1ABBE4FF;
+}
